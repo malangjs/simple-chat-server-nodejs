@@ -1,0 +1,20 @@
+{
+  "name": "node-ws-basic",
+  "version": "1.0.0",
+  "description": "Simple Chat Server with Node.js",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.13.4",
+    "faker": "^3.0.1",
+    "socket.io": "^1.4.5",
+    "uuid": "^2.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node --harmony_destructuring server.js",
+    "dev": "nodemon --harmony_destructuring server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Donny Stark",
+  "license": "ISC"
+}
