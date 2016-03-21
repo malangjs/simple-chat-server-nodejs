@@ -34,6 +34,6 @@ ws.on('connection', (socketClient) => {
 })
 
 
-server.listen(3000, (err) => {
+server.listen(3000, '0.0.0.0', (err) => {
 	if(err) throw err;
 })
